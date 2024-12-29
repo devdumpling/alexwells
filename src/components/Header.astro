@@ -3,13 +3,11 @@ import HeaderLink from "./HeaderLink.astro";
 ---
 
 <header>
-	<nav>
-		<div class="internal-links">
-		  <HeaderLink href="/" class="active">Home</HeaderLink>
-			<HeaderLink href="/blog">Words</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-	</nav>
+  <nav>
+    <HeaderLink href="/" class="active">Home</HeaderLink>
+  	<HeaderLink href="/blog">Words</HeaderLink>
+  	<HeaderLink href="/about">About</HeaderLink>
+  </nav>
 </header>
 <style>
 	header {
@@ -24,7 +22,7 @@ import HeaderLink from "./HeaderLink.astro";
 	nav {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 	}
 	nav a {
 		padding: 1em 0.5em;
@@ -33,14 +31,5 @@ import HeaderLink from "./HeaderLink.astro";
 	}
 	nav a.active {
 		text-decoration: none;
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	@media (max-width: 720px) {
-		.social-links {
-			display: none;
-		}
 	}
 </style>
