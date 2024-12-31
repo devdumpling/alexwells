@@ -1,4 +1,4 @@
-// @ts-chec
+// @ts-check
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import deno from "@deno/astro-adapter";
