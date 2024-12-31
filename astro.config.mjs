@@ -10,4 +10,9 @@ export default defineConfig({
   site: "https://alexwells.dev",
   integrations: [mdx(), sitemap()],
   adapter: deno(),
+  markdown: {
+    shikiConfig: {
+      theme: "catppuccin-mocha",
+    },
+  },
 });
