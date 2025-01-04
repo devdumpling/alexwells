@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/BlogPost.astro";
+
+const level = 31;
 ---
 
 <Layout
@@ -7,15 +9,19 @@ import Layout from "../layouts/BlogPost.astro";
   description="About Devon Wells"
   pubDate={new Date("Jan 2 2025")}
 >
-  <h2>Greetings wanderer...</h2>
+  <h2>Greetings wanderer.</h2>
   <p>
-    Since you've landed on this page, maybe you are wondering about me, the
-    author of <span>The Grimoire</span>. I am <span>Dev Wells</span>:
+    I am <span>Dev Wells</span>.
   </p>
+  <div>
+    <span>lvl {level}</span>
+    <span>Principal Software Engineer @ GoodRx</span>
+    <span>they/he</span>
+  </div>
   <ul>
-    <li>Dad to two snarky daughters</li>
-    <li>Digital craftsperson</li>
-    <li>Writer of code and prose</li>
-    <li>Principal Software Engineer @ GoodRx</li>
+    <li>Father to two young apprentices</li>
+    <li>Digital spellcrafter</li>
+    <li>Fantasy enthusiast</li>
+    <li>Aspiring game creator</li>
   </ul>
 </Layout>
