@@ -17,6 +17,7 @@
     "npm:@biomejs/biome@^1.9.4": "1.9.4",
     "npm:@deno/astro-adapter@0.2": "0.2.0_astro@5.1.1__vite@6.0.5__zod@3.24.1",
     "npm:astro@^5.1.1": "5.1.1_vite@6.0.5_zod@3.24.1",
+    "npm:motion@^11.16.0": "11.16.0",
     "npm:prettier-plugin-astro@~0.14.1": "0.14.1",
     "npm:prettier@^3.4.2": "3.4.2"
   },
@@ -1358,6 +1359,14 @@
     "flattie@1.1.1": {
       "integrity": "sha512-9UbaD6XdAL97+k/n+N7JwX46K/M6Zc6KcFYskrYL8wbBV/Uyk0CTAMY0VT+qiK5PM7AIc9aTWYtq65U7T+aCNQ=="
     },
+    "framer-motion@11.16.0": {
+      "integrity": "sha512-oL2AWqLQuw0+CNEUa0sz3mWC/n3i147CckvpQn8bLRs30b+HxTxlRi0YR2FpHHhAbWV7DKjNdHU42KHLfBWh/g==",
+      "dependencies": [
+        "motion-dom",
+        "motion-utils",
+        "tslib"
+      ]
+    },
     "fsevents@2.3.3": {
       "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
     },
@@ -2272,6 +2281,22 @@
         "ufo"
       ]
     },
+    "motion-dom@11.16.0": {
+      "integrity": "sha512-4bmEwajSdrljzDAYpu6ceEdtI4J5PH25fmN8YSx7Qxk6OMrC10CXM0D5y+VO/pFZjhmCvm2bGf7Rus482kwhzA==",
+      "dependencies": [
+        "motion-utils"
+      ]
+    },
+    "motion-utils@11.16.0": {
+      "integrity": "sha512-ngdWPjg31rD4WGXFi0eZ00DQQqKKu04QExyv/ymlC+3k+WIgYVFbt6gS5JsFPbJODTF/r8XiE/X+SsoT9c0ocw=="
+    },
+    "motion@11.16.0": {
+      "integrity": "sha512-d7EhBRFFBm6Ee6Q81Od45KOr3feA7UL/eAL+OKNZmf6rQJEwiXfvc/nkM522Ahiuvole1/8rNQyOX8JHKr8QoQ==",
+      "dependencies": [
+        "framer-motion",
+        "tslib"
+      ]
+    },
     "mrmime@2.0.0": {
       "integrity": "sha512-eu38+hdgojoyq63s+yTpN4XMBdt5l8HhMhc4VKLO9KM5caLIBvUm4thi7fFaxyTmCKeNnXZ5pAlBwCUnhA09uw=="
     },
@@ -3134,6 +3159,7 @@
         "npm:@biomejs/biome@^1.9.4",
         "npm:@deno/astro-adapter@0.2",
         "npm:astro@^5.1.1",
+        "npm:motion@^11.16.0",
         "npm:prettier-plugin-astro@~0.14.1",
         "npm:prettier@^3.4.2"
       ]

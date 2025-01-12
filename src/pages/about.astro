@@ -1,7 +1,6 @@
 ---
+import Stats from "../components/Stats.astro";
 import Layout from "../layouts/BlogPost.astro";
-
-const level = 31;
 ---
 
 <Layout
@@ -9,15 +8,7 @@ const level = 31;
   description="About Devon Wells"
   pubDate={new Date("Jan 2 2025")}
 >
-  <h2>Greetings wanderer.</h2>
-  <p>
-    I'm <span>Dev Wells</span>.
-  </p>
-  <div>
-    <span>lvl {level}</span>
-    <span>Principal Software Engineer @ GoodRx</span>
-    <span>they/he</span>
-  </div>
+  <Stats />
   <ul>
     <li>Father to two young apprentices</li>
     <li>Digital spellcrafter</li>
