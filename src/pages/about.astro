@@ -22,7 +22,7 @@ import Stats from "../components/Stats.astro";
 
       <MoreStats />
       <div class="divider">━━━ ◈ ━━━</div>
-      <article>
+      <article class="prose">
         <h3>The Journey So Far</h3>
         <p class="first-paragraph">
           <span class="drop-cap">I</span>t began in the Blue Ridge Mountains of
@@ -250,9 +250,18 @@ import Stats from "../components/Stats.astro";
   </body>
 </html>
 <style>
+  .prose {
+    width: 720px;
+    max-width: calc(100% - 2em);
+    margin: auto;
+    padding: 0 1em;
+    color: var(--text);
+  }
+
   h3 {
     color: var(--rosewater);
   }
+
   .divider {
     color: var(--overlay1);
     text-align: center;
