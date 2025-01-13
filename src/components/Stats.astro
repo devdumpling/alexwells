@@ -28,13 +28,14 @@ const guild = "GoodRx";
 
   .stat-block {
     display: flex;
+    justify-content: space-between;
     width: 100%;
   }
 
   .stat {
-    padding: 0 0.25em;
-    background-color: var(--mantle);
-    margin-right: 0.5em;
+    display: flex;
+    flex-direction: column;
+    padding: 0.25em;
     text-transform: lowercase;
     font-family: monospace;
     color: var(--subtext0);
@@ -46,7 +47,7 @@ const guild = "GoodRx";
 
   .stat-value {
     font-weight: 700;
-    color: var(--peach);
+    color: var(--rosewater);
     font-size: 0.8em;
   }
 </style>

@@ -2,6 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import MoreStats from "../components/MoreStats.astro";
 import Stats from "../components/Stats.astro";
 ---
 
@@ -14,17 +15,19 @@ import Stats from "../components/Stats.astro";
     <Header />
     <main>
       <Stats />
-      <article>
-        <ul>
-          <li>Father to two young apprentices</li>
-          <li>Digital spellcrafter</li>
-          <li>Fantasy enthusiast</li>
-          <li>Fledgling open sourceror</li>
-          <li>Aspiring game creator</li>
-        </ul>
+      <p class="tagline">
+        ...DWELLS in the midwest, raising two tiny apprentices, perfecting vegan
+        mac, playing games, "enjoying" the cold...
+      </p>
 
+      <MoreStats />
+      <div class="divider">━━━ ◈ ━━━</div>
+      <article>
         <h3>The Journey So Far</h3>
-        <p>It began in the Blue Ridge Mountains of Southern Virginia.</p>
+        <p class="first-paragraph">
+          <span class="drop-cap">I</span>t began in the Blue Ridge Mountains of
+          Southern Virginia.
+        </p>
         <p>
           As a kid, I was lucky enough to stumble into programming, spurred by
           the grinding of two tectonic plates in my life:
@@ -236,8 +239,57 @@ import Stats from "../components/Stats.astro";
           wherever the winds may lead. If you've enjoyed this chapter of the
           lore, there's plenty more to explore in the rest of the grimoire.
         </p>
+        <blockquote>
+          “The most important step a man can take. It's not the first one, is
+          it? It's the next one. Always the next step, Dalinar.”
+          <cite>— Brandon Sanderson, Oathbringer</cite>
+        </blockquote>
       </article>
     </main>
     <Footer />
   </body>
 </html>
+<style>
+  h3 {
+    color: var(--rosewater);
+  }
+  .divider {
+    color: var(--overlay1);
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .first-paragraph {
+    position: relative;
+  }
+
+  .drop-cap {
+    font-family: "Eldritch";
+    float: left;
+    font-size: 4em;
+    padding: 0.1em 0.1em 0 0;
+    line-height: 0.8;
+  }
+
+  .tagline {
+    color: var(--subtext1);
+    font-style: italic;
+    margin-bottom: 2rem;
+    font-size: 1.1em;
+  }
+
+  blockquote {
+    border-left: 4px dashed var(--mauve);
+    padding-left: 1rem;
+    margin: 2rem 0;
+    color: var(--subtext1);
+    font-style: italic;
+  }
+
+  cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9em;
+    color: var(--subtext0);
+  }
+</style>

@@ -1,0 +1,148 @@
+---
+const traits = [
+  "Girl Dad",
+  "Open Sourceror",
+  "Amateur Game Dev",
+  "Tool Junkie",
+  "Fantasy Nerd",
+  "Rock Climber",
+];
+
+const spells = [
+  { name: "TypeScript", level: 5 },
+  { name: "HTML/CSS", level: 5 },
+  { name: "React", level: 5 },
+  { name: "Astro", level: 4 },
+  { name: "Qwik", level: 4 },
+  { name: "Go", level: 3 },
+];
+
+const tools = [
+  "Zed",
+  "Deno",
+  "Node",
+  "Git",
+  "Linux",
+  "Docker",
+  "Kubernetes",
+  "GraphQL",
+  "Turborepo",
+  "Tailwind",
+  "Godot",
+];
+
+const getStars = (level: number) => "★".repeat(level) + "☆".repeat(5 - level);
+---
+
+<details>
+  <summary>/◈/ ━ stats ━ \◈\</summary>
+  <div class="stat-container">
+    <div class="stat-columns">
+      <div class="column">
+        <h3>Traits</h3>
+        {
+          traits.map((trait) => (
+            <div class="trait-row">
+              <span class="dot">•</span>
+              <span class="value">{trait}</span>
+            </div>
+          ))
+        }
+      </div>
+
+      <div class="column">
+        <h3>Spells</h3>
+        {
+          spells.map((spell) => (
+            <div class="spell-row">
+              <span class="spell-name">{spell.name}</span>
+              <span class="spell-level">{getStars(spell.level)}</span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="tools-section">
+      <h3>Tools</h3>
+      <div class="tool-grid">
+        {tools.map((tool) => <div class="tool-badge">{tool}</div>)}
+      </div>
+    </div>
+  </div>
+</details>
+
+<style>
+  details {
+    margin-top: 0.5rem;
+  }
+  summary {
+    font-size: 0.8em;
+    font-family: monospace;
+    color: var(--lavender);
+    cursor: pointer;
+  }
+  .stat-container {
+    font-size: 0.8em;
+    padding: 1rem;
+    font-family: monospace;
+    background: var(--surface0);
+
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .stat-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    color: var(--subtext0);
+    font-size: 0.9em;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .trait-row {
+    display: flex;
+    font-style: oblique;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .dot {
+    color: var(--mauve);
+  }
+
+  .spell-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+
+  .spell-name {
+    color: var(--rosewater);
+  }
+
+  .spell-level {
+    color: var(--yellow);
+  }
+
+  .tool-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tool-badge {
+    background: var(--surface1);
+    color: var(--lavender);
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.9em;
+  }
+</style>
