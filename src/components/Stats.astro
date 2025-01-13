@@ -1,69 +1,52 @@
 ---
 const level = 31;
-const name = "Dev Wells";
 const cls = "Software Engineer";
 const guild = "GoodRx";
 ---
 
-<div class="greeting">
-  <h2>Greetings wanderer.</h2>
-  <p>I'm <span class="name">{name}</span>.</p>
-</div>
-
+<h1>Dev Wells</h1>
 <div class="stat-block">
   <div class="stat">
-    <span class="stat-label">Level</span>
+    <span class="stat-label">lvl</span>
     <span class="stat-value">{level}</span>
   </div>
   <div class="stat">
-    <span class="stat-label">Class</span>
+    <span class="stat-label">class</span>
     <span class="stat-value">{cls}</span>
   </div>
   <div class="stat">
-    <span class="stat-label">Guild</span>
+    <span class="stat-label">guild</span>
     <span class="stat-value">{guild}</span>
   </div>
 </div>
 <style>
-  .greeting {
-    margin-bottom: 2rem;
-  }
-
-  .greeting .name {
-    font-weight: bold;
+  h1 {
+    font-family: "Eldritch";
     color: var(--mauve);
+    margin-bottom: 0;
   }
 
   .stat-block {
-    width: 100%;
-    justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    width: 100%;
   }
 
   .stat {
-    background: var(--surface0);
-    padding: 0.75rem 1.5rem;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 140px;
+    padding: 0 0.25em;
+    background-color: var(--mantle);
+    margin-right: 0.5em;
+    text-transform: lowercase;
+    font-family: monospace;
+    color: var(--subtext0);
   }
 
   .stat-label {
-    font-size: 0.875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-family: monospace;
-    color: var(--sky);
-    margin-bottom: 0.25rem;
+    font-size: 0.8em;
   }
 
   .stat-value {
-    color: var(--rosewater);
-    font-weight: 600;
+    font-weight: 700;
+    color: var(--peach);
+    font-size: 0.8em;
   }
 </style>

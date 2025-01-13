@@ -85,9 +85,11 @@ h6 {
 }
 h1 {
   font-size: 3.052em;
+  color: var(--rosewater);
 }
 h2 {
   font-size: 2.441em;
+  color: var(--rosewater);
 }
 h3 {
   font-size: 1.953em;
@@ -131,7 +133,7 @@ img {
 }
 code {
   padding: 2px 5px;
-  background-color: rgb(var(--surface2));
+  background-color: var(--surface2);
   border-radius: 2px;
 }
 pre {
@@ -149,7 +151,7 @@ blockquote {
 }
 hr {
   border: none;
-  border-top: 1px solid rgb(var(--surface2));
+  border-top: 1px solid var(--surface2);
 }
 @media (max-width: 720px) {
   body {
