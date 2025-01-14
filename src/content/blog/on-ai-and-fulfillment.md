@@ -34,7 +34,7 @@ A sense of fulfillment. Deep-in-the-soul satisfaction at both _having created_ a
 
 And it was whatever this nebulous thing is that I don't have a name for that kept me coming back every day _yearning to create more_. In psychology, people who know way more about psych might refer to this as the intersection of _hedonia_ (feeling good) and _eudaimonia_ (feeling purpose). Supposedly, the key to happiness can be understood in their relationship--forgive my hand waving. I digress.
 
-The revelation is that this is in stark contrast to what I experienced with Midjourney and other AI image generation tools. In less academic terms, _making art was fun AND purposeful, generating art was not._
+The revelation is that this is in stark contrast to what I experienced with Midjourney and other AI image generation tools. In less academic terms, _making art manually was fun AND purposeful, generating art was not._
 
 ## On Coding With AI
 
