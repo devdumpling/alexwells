@@ -40,87 +40,106 @@ The revelation is that this is in stark contrast to what I experienced with Midj
 
 Recently, I have felt a similar growing dilemma professionally.
 
-To no one's surprise and to my guidance counsellor's self-capitulating delight, I didn't continue my artistic pursuits professionally. However, I eventually found the same fulfillment in programming.
+To no one's surprise and probably to my guidance counsellor's self-congratulatory delight, I didn't continue my artistic pursuits professionally. However, I eventually found the same fulfillment in programming.
 
 [It took some time](/lore), and like other fulfilling craft, has its highs and lows. But I got there. In particular, the past 4-5 years have grown increasingly fulfilling as I've honed my craft and gained confidence in my work.
 
-Until recently.
+However, recently I felt the actual act of programming slowly get less enjoyable.
 
-It was about 6 months ago that I noticed I was starting to derive less joy from programming. This was only around 6 months after making the shift from manager back to IC, specifically after recognizing it's the actual craftsmanship that gives me energy. So, it was alarming to feel like I was less energized by my work.
+It was about 6 months ago that I first started feeling this. Also, this was only around 6 months after making the shift from manager back to IC, specifically after recognizing it's the actual craftsmanship that gives me energy. So, it was alarming to feel like I was less energized by my work.
 
-Why the change?
+I started to wonder what was going on.
 
 At first, I chalked this up to stressful circumstances. I was working on a particularly thorny project involving a massive rewrite of my company's core funnel in our new frontend (an updated Next.js app that has been an improvement, [but not without... caveats](https://infrequently.org/2024/11/if-not-react-then-what/), and significant hand-holding/manual tuning). As a lead on the project, I was responsible for some of the more complex and necessarily innovative pieces.
 
-It was not that (though, my frustrations with contemporary frontend trends certainly didn't help).
+I don't think it was that (though, my frustrations with contemporary frontend trends certainly didn't help).
 
 Then I thought maybe it was the fact that I was expecting my second daughter soon. Naturally, I wanted to spend more time with my family and making sure my family had all the support I could give them. Perhaps this was at odds with my desire to craft?
 
-It was not that.
+I don't think it was that, either.
 
 After my daughter arrived (and a revitalizing, cold-water-to-the-face 3 months of paternity), I had some time to back away from work. In that time, I had little time to code, but ample time to reflect.
 
-In the little time I did have to code, I decided to spend some time returning to my roots. I picked emacs back up (DOOM emacs) and fell in love with it all over again (ultimately, I left emacs again for Zed after losing a much-needed week to config hell--but the lessons remain). I rabbit-holed into linux after hearing DHH ramble on about it, and rediscovered the joy of spending weekends tinkering in Arch. I spent a bunch of time **not writing React and banging my knee against JS tooling**.
+In the little time I did have to code, I returned to my roots. I picked emacs back up (DOOM emacs) and fell in love with it all over again (ultimately, I left emacs again for Zed after losing a much-needed week to config hell--but the lessons remain). I rabbit-holed into linux after hearing DHH rant on it, and rediscovered the joy of spending weekends tinkering in Arch. I spent a bunch of time **not writing React and banging my knee against JS tooling**.
 
 Oh, and I forgot to turn copilot on for all of this. I just... forgot about it--or likely wasn't bothered to configure it. Weird.
 
 Anyway, I came out of this post-paternity fog energized to return to work. It was only then that I noticed I had been coding without copilot for the past 3 months. I turned it back on, and within a couple weeks noticed something.
 
-I was having less fun.
+The aforementioned feeling of dread returned. I was having less fun.
 
-Now, the attentive reader will quip, "well, yeah! you returned to work! that's not as fun as the play you were doing on paternity..."
+Now, the attentive reader will retort, "well, yeah! you returned to work! that's not as fun as the play you were doing on paternity... kind of sus to blame it on AI."
 
-I thought so, too. So, I turned copilot _back off_. As a test, I also stopped using other AI tools for anything but quick search purposes. And strangely, when forced to work in this way, I found that work was energizing again. Not only that, I returned to my "play" and side projects, which had languished in my earlier regression.
+True, but it made me curious.
 
-What gives? Am I just a luddite clinging to some sense of non-AI idealism? Or was it something deeper, more fundamental, like [Ginger Bill's (creator of Odin) rejection of LSPs?](https://www.youtube.com/watch?v=fYUruq352yE)
+So as an experiment, I turned copilot _back off_. I also stopped using other AI tools for anything but quick search purposes. I didn't feel better over night, but gradually I noticed improvements in how much _fun_ I was having while programming.
+
+I noted that I had passively been relying heavily on copilot (and Claude) to do things that were my bread and butter. It made a lot of the boring parts of coding easier, but it also seeped into the parts that were enjoyable. I'm sure many people would disagree with what parts are "fun", and that's fine. For example, stuff like designing a component or thinking critically about the structure of code was fun, and often copilot would have a "satisfactory" solution that I would accept, not recognizing I was missing out on what delighted me.
+
+It's sappy, but I felt re-energized by these revelations, and have revisited my relationship with AI tools to more closely align with what's important to me.
+
+Am I just a luddite clinging to some sense of non-AI idealism? Maybe. Or was it something deeper, more fundamental, like [Ginger Bill's (creator of Odin) rejection of LSPs?](https://www.youtube.com/watch?v=fYUruq352yE)
 
 ## Reflections
 
-It's possible this is purely a me thing, and I'm **definitely** not saying anyone else should do this. I'm also not saying this is solely a good thing. But it certainly has me thinking.
+It's possible this is purely a me thing, and I'm **definitely** not saying anyone else should do this. (Though, I am saying you should try it! See what happens.) I also don't mean to paint this as black and white.
 
 For example, I'm fairly confident that I code more _efficiently_ (as in bang out shit for my company faster) with copilot enabled. On the contrary, I'm less confident that I code more _effectively_ (as in, am a good engineer).
 
 But what's clear as day to me right now and retrospectively, is that I have less fun when I let the AI do all the work for me. **And paradoxically, though I might be programming faster with it, I feel less competent**.
 
-I've recently picked up vim motions (in addition to my decades worth of emacs muscle memory). I don't know what it is exactly, but it just feels good to do the work myself. I'm left searching for parallels like the art one at the beginning of this post to try and express this, but even that feels not-quite-right.
+I should clarify it's not purely the more mental parts of programming--it's also the mechanical. I've recently picked up vim motions (which is trying to find space in my brain next to 14 years of emacs muscle memory). As an added bit of experiment, I tried Cursor and, while it was neat, it felt mechanically lacking. I'm left searching for parallels like the art one at the beginning of this post to try and express this, but even that feels not-quite-right. Maybe a closer analogy is the difference between playing a physical instrument and composing with a digital tool. I recognize the utility, but that doesn't mean I enjoy it the same way.
 
-I heard a similar take that resonated with me recently was when listening to TJ Devries and The Primeagen [interview Mitchell Hashimoto](https://www.youtube.com/watch?v=YQnz7L6x068&t=3105s), creator of Ghostty. In the interview, they ask "Why Zig over Rust?" He responds with:
+I heard a similar take that resonated with me when listening to TJ Devries and The Primeagen [interview Mitchell Hashimoto](https://www.youtube.com/watch?v=YQnz7L6x068&t=3105s), creator of Ghostty. In the interview, they ask "Why Zig over Rust?" He responds with:
 
 > "My answer to this makes _everyone_ mad. Because programmers that care about programming languages want an answer that's based in some sort of theory, or safety, or like something. And my answer, dead to rights, is just... _I have fun writing Zig, and I do not have fun reading or writing Rust_."
 
-What I'm noticing is I'm finding a similar correlation currently with myself and copilot, in particular. I do not doubt the utility of copilot. I doubt whether it's making me _fulfilled_. I want to craft in excellence today, tomorrow, and 20 years from now. I'm concerned that, despite the utility, I lose part of that fulfillment when I over-rely on AI tools.
+What I'm noticing is a similar correlation with myself and AI tools. I do not doubt the utility of copilot. I doubt whether it's making me _fulfilled_.
 
-_Relatedly, I stumbled across a [paper citing negative impacts on critical thinking](https://www.mdpi.com/2075-4698/15/1/6) due to over-reliance on AI tools. Yikes._
+_Aside: I stumbled across a [paper citing negative impacts on critical thinking](https://www.mdpi.com/2075-4698/15/1/6) due to over-reliance on AI tools. Yikes._
 
-That's not to say I'm writing them off entirely, and I think that would be a shallow conclusion. Instead, I'm currently using Copilot as a sort of "emmet" or super autocomplete. I will intentionally trigger it with a hotkey for areas where I know I have the shape of something and want to jump past some tedium. Alternatively, I will use it as a quick inline search. For example, the other day I was writing the "Stats" section of the [lore](/lore) page of this blog, and I couldn't remember what the syntax looked like for the `details` HTML element. Rather than popping into MDN, I simply wrote `<details>` and then hit my copilot hotkey and got the following `<summary>` element I couldn't remember.
+That's not to say I'm writing them off entirely, and I think that would be a shallow conclusion. Rather, I'm trying to consistently monitor the balance of how I use AI. What's working now is using Copilot as a sort of "emmet" or super autocomplete for tedious work. I will intentionally trigger it with a hotkey for areas where I know I have the shape of something and want a little extra help filling in the details. Also, I will use it as a quick inline search.
+
+For example, the other day I was writing the "Stats" section of the [lore](/lore) page of this blog, and I couldn't remember what the syntax looked like for the `details` HTML element. Rather than popping into MDN, I simply wrote `<details>` and then hit my copilot hotkey and got the following `<summary>` element I couldn't remember.
 
 What I try not to let it do for me anymore is get in the way of my own creative process. The same is true of "heavier" tools like Claude, etc. I make use of them for lightweight pairing (especially in areas on the edge of my experience) or high-level brainstorming. But I explicitly tell it **not** to generate any actual code.
 
-Because _I want to write the code_. I want to be familiar. I want to be competent and understand what I'm doing. I want to be responsible for my own mistakes, too, and be able to bring that empathy to the table in meetings with my colleagues.
+Because _I want to write the code_. I want to be familiar. I want to be competent and understand what I'm doing. I want to be responsible for my own mistakes, and be able to bring that deep understanding for what I've built to the table in meetings with my colleagues and stakeholders.
 
-[DHH expresses similar](https://www.youtube.com/watch?v=mTa2d3OLXhg) in another Top Shelf interview. He says that he is having _more fun_ working with some AI tools, but not because they're doing the coding for him, but because they've augmented the grueling parts of his workflow.
+And I suspect I am not alone in this line of reasoning.
+
+[DHH expresses as much](https://www.youtube.com/watch?v=mTa2d3OLXhg) in another Top Shelf interview. He says that he is having _more fun_ working with some AI tools, but not because they're doing the coding for him, but because they've augmented the grueling parts of his workflow.
 
 > "I enjoy AI as a better version of that. What I have not enjoyed is to have AI write my code."
 
 ## Conclusions
 
-If there exists a world around the corner where AGI replaces the creative process of software engineering, I don't know what I'll do. Frankly, I doubt it'll come to that soon (if ever), but I'm not sure it's fair to write off so tacitly as is posh in modern programming forums. It seems like an eventuality we should, at least, seriously think on. This post is already long, though, so I'll reserve those thoughts for a future one.
+Is there a world around the corner where AGI replaces the creative process of software engineering? What would that mean for someone like me who derives a lot of pleasure from it? Maybe simply that it's not profitable professionally? I'm not sure! I'm sure I could find something else fun to do (eat shit, counsellor).
 
-Instead, I'll conclude with why I think it's unlikely in the "soon".
+Frankly, I doubt it'll come to that soon (if ever), but I don't want to write off so tacitly as is posh in modern programming forums. It seems like an eventuality we should, at least, seriously think on. This post is already long, though, so I'll reserve those thoughts for a future one.
 
-On this, I take inspiration from [John Cleese](https://designbetterpodcast.com/p/john-cleese-a-cheerful-guide-to-creativity).
+Instead I'll try to leave on a positive note.
+
+[John Cleese](https://designbetterpodcast.com/p/john-cleese-a-cheerful-guide-to-creativity), famous comedian, writer, and screenwriter known for works like Monty Python and A Fish Called Wanda says this of the creative process:
 
 > "Confidence really comes from doing it a lot, doing anything a lot."
 
 > "Anything really new comes from the unconscious, and the only way you can get in touch with the unconscious is to be in a playful mood."
 
-If my goal is _true craftsmanship_ and my value to my company is to use said craftsmanship to provide innovative, excellent experiences to users, how can I do that effectively without liking what I do? Without feeling fulfilled by it?
+If your goal, like mine, is _true craftsmanship_, and your value to my company is, first and foremost, to use said craftsmanship to build innovative, excellent software, then this element of `play, fun, fulfillment` or whatever else you want to call it is requisite.
 
-Similarly, can an AGI do this without the same drive? That's a big question.
-One answer is that perhaps most companies _don't_ need that, but just need efficiency. Or maybe they only need a smaller number of effective engineers to innovate and create.
+Finally, questioning whether our tools are building this up or diminishing it should be at the forefront of our attention.
 
-Or maybe innovation/excellence is more a product consideration, but not as much a business one. Mediocrity can still be profitable--there are plenty of examples of this.
+<hr />
 
-As I said at the beginning of this post, all I have is more questions and open-ended reflection. What do you think?
+### Afterward: more thoughts
 
-_Note: I'm also not necessarily "worried". If AGI takes over software, I'll still code, just maybe not professionally. Maybe I can even pick up my art pursuits again!_
+One pessimistic read on what I'm saying is that perhaps most companies _don't_ need this sense of purpose from their engineers, but just need efficiency. Or maybe they only need a smaller number of effective engineers to innovate and create if efficiency was higher.
+
+I could see that. Also, there's nothing wrong with not loving coding/software engineering either and just wanting a paycheck.
+
+Maybe innovation/excellence is more an emerging product consideration, chiefly prioritized by organizations trying to do something remarkable, but not so much a business consideration. Mediocrity can be plenty profitable.
+
+As I said at the beginning of this post, I have more questions than answers.
+
+What do you think?
