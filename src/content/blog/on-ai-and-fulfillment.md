@@ -16,13 +16,15 @@ Something strange happened in that 2 weeks. I went from generating hundreds of i
 
 By the end of the first month, I was barely using it at all. I kept my account open for another month while I did some tinkering for a D&D campaign I was working on, but then I closed it.
 
-Looking back, it was a surreal experience. At first, the whole process was incredible. I was short-circuiting the creative dopaminergic cycle, reaping the "ends" of creating art with none of the "means". However, the high quickly diminished, and I was left feeling hollow. Trying other image gen AI's was interesting for a minute, but had the same ultimate outcome.
+Looking back, it was a surreal experience. At first, the whole process was incredible. I was short-circuiting the creative dopaminergic cycle (if you'll allow me to butcher that term), reaping the "ends" of creating art with none of the "means". However, the high quickly diminished, and I was left feeling hollow. Trying other image gen AI's was interesting for a minute, but had the same ultimate outcome.
 
 I look back on the nearly 3000 images I generated in that short burst with some pity. Individually, they were interesting enough. But faced with them all on a well-designed masonry grid? They were uncannily mediocre in their sameness.
 
+_Note: I want to be clear that the technology here was monumentally impressive. This isn't to take anything away from those achievements or the incredible work the Midjourney team has done. Rather, this is me reflecting as a hobbyist playing with tools._
+
 ## In Contrast
 
-I want to contrast this with the other formative years of my art experience. Growing up, I _loved_ art from an early age. I drew every day in grade school, and even got "pretty good" at it. As I got into high school, the trend dissipated as I became interested in other things, but I still regularly returned to art. It was only when my high school "guidance counsellor" gave me a professional ultimatum between Computers and Art that I, regrettably, decided to spend less time drawing and focus on programming.
+I want to contrast this with the more formative years of my art experience. Growing up, I _loved_ art from an early age. I drew every day in grade school, and even got "pretty good" at it. As I got into high school, the trend dissipated as I became interested in other things, but I still regularly returned to art. It was only when my high school "guidance counsellor" gave me a professional ultimatum between Computers and Art that I, regrettably, decided to spend less time drawing and focus on programming.
 
 (As an aside, I put airquotes above because that is horseshit. You can and should pursue multiple interests. Fucking guidance counsellors.)
 
