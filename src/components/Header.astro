@@ -4,11 +4,35 @@ import HeaderLink from "./HeaderLink.astro";
 
 <header>
   <nav>
-    <HeaderLink href="/">0 index</HeaderLink>
-    <HeaderLink href="/blog">1 chronicles</HeaderLink>
-    <HeaderLink href="/lore">2 lore</HeaderLink>
+    <HeaderLink href="/" data-key="0">0 index</HeaderLink>
+    <HeaderLink href="/blog" data-key="1">1 chronicles</HeaderLink>
+    <HeaderLink href="/lore" data-key="2">2 lore</HeaderLink>
   </nav>
 </header>
+
+<script>
+  // Keyboard shortcuts for navigation
+  document.addEventListener("keydown", (event) => {
+    const key = event.key;
+    if (["0", "1", "2"].includes(key)) {
+      const link = document.querySelector(`[data-key="${key}"]`);
+      if (
+        link instanceof HTMLAnchorElement &&
+        !link.classList.contains("active")
+      ) {
+        event.preventDefault();
+        // Add a brief highlight effect
+        link.style.padding = "0.25em 0.5em";
+        link.style.backgroundColor = "var(--surface1)";
+        setTimeout(() => {
+          link.style.backgroundColor = "";
+          link.click();
+        }, 100);
+      }
+    }
+  });
+</script>
+
 <style>
   header {
     margin: 0;
