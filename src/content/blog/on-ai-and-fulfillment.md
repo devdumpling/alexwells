@@ -60,7 +60,7 @@ I don't think it was that, either.
 
 After my daughter arrived (and a revitalizing, cold-water-to-the-face 3 months of paternity), I had some time to back away from work. In that time, I had little time to code, but ample time to reflect.
 
-In the little time I did have to code, I returned to my roots. I picked emacs back up (DOOM emacs) and fell in love with it all over again (ultimately, I left emacs again for Zed after losing a much-needed week to config hell--but the lessons remain). I rabbit-holed into linux after hearing DHH rant on it, and rediscovered the joy of spending weekends tinkering in Arch. I spent a bunch of time **not writing React and banging my knee against JS tooling**.
+In the little time I did have to code, I returned to my roots. I picked emacs back up (DOOM emacs) and fell in love with it all over again (ultimately, I left emacs again for Zed after losing a much-needed week to config hell--but the lessons remain). I rabbit-holed into linux after hearing DHH rant on it, and rediscovered the joy of spending weekends tinkering in Arch. I spent a bunch of time **not writing React and not constantly banging my knee against JS tooling**.
 
 Oh, and I forgot to turn copilot on for all of this. I just... forgot about it--or likely wasn't bothered to configure it. Weird.
 
