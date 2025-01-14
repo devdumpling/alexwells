@@ -160,6 +160,23 @@ hr {
   main {
     padding: 1em;
   }
+  h1 {
+    font-size: 2.441em;
+    color: var(--rosewater);
+  }
+  h2 {
+    font-size: 1.953em;
+    color: var(--rosewater);
+  }
+  h3 {
+    font-size: 1.563em;
+  }
+  h4 {
+    font-size: 1.25em;
+  }
+  h5 {
+    font-size: 1.12em;
+  }
 }
 
 .sr-only {
