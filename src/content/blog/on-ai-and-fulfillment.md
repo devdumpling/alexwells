@@ -36,6 +36,10 @@ And it was whatever this nebulous thing is that I don't have a name for that kep
 
 The revelation is that this is in stark contrast to what I experienced with Midjourney and other AI image generation tools. In less academic terms, _making art manually was fun AND purposeful, generating art was not._
 
+Look, this is a loosely tech/fantasy themed blog y'all. I have to do the cliche thing and quote Sanderson here.
+
+> "Journey before destination."
+
 ## On Coding With AI
 
 Recently, I have felt a similar growing dilemma professionally.
