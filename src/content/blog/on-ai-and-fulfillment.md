@@ -50,7 +50,7 @@ It was about 6 months ago that I noticed I was starting to derive less joy from 
 
 Why the change?
 
-At first, I chalked this up to stressful circumstances. I was working on a particularly thorny project involving a massive rewrite of my company's core funnel in our supposedly blazing-fast new app (a Next.js 14 app that has turned out to be [not so blazingly-fast](https://infrequently.org/2024/11/if-not-react-then-what/), at least not without significant hand-holding/manual tuning). As a lead on the project, I was responsible for some of the more complex and necessarily innovative pieces.
+At first, I chalked this up to stressful circumstances. I was working on a particularly thorny project involving a massive rewrite of my company's core funnel in our new frontend (an updated Next.js app that has been an improvement, [but not without... caveats](https://infrequently.org/2024/11/if-not-react-then-what/), and significant hand-holding/manual tuning). As a lead on the project, I was responsible for some of the more complex and necessarily innovative pieces.
 
 It was not that.
 
