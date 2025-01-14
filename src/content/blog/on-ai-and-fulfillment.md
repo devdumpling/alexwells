@@ -52,7 +52,7 @@ Why the change?
 
 At first, I chalked this up to stressful circumstances. I was working on a particularly thorny project involving a massive rewrite of my company's core funnel in our new frontend (an updated Next.js app that has been an improvement, [but not without... caveats](https://infrequently.org/2024/11/if-not-react-then-what/), and significant hand-holding/manual tuning). As a lead on the project, I was responsible for some of the more complex and necessarily innovative pieces.
 
-It was not that.
+It was not that (though, my frustrations with contemporary frontend trends certainly didn't help).
 
 Then I thought maybe it was the fact that I was expecting my second daughter soon. Naturally, I wanted to spend more time with my family and making sure my family had all the support I could give them. Perhaps this was at odds with my desire to craft?
 
