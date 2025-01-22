@@ -3,7 +3,10 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev:ui": "astro dev",
+    "dev:db-up": "docker compose --env-file .env -f ./docker/docker-compose.yml up",
+    "dev:db-down": "docker compose --env-file .env -f ./docker/docker-compose.yml down",
+    "dev:clean": "docker volume rm -f docker_zstart_pgdata && rm -rf \"${ZERO_REPLICA_FILE}\"*",
     "build": "astro build",
     "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
     "astro": "astro"
@@ -12,9 +15,12 @@
     "@astrojs/mdx": "^4.0.3",
     "@astrojs/rss": "^4.0.10",
     "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/solid-js": "^5.0.4",
     "@deno/astro-adapter": "^0.2.0",
+    "@rocicorp/zero": "^0.11.2025011402",
     "astro": "^5.1.1",
-    "motion": "^11.16.0"
+    "motion": "^11.16.0",
+    "solid-js": "^1.9.4"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
